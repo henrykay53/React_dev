@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+
+.footer {
+    text-align: center;
+    background-color: #7D47EF;
+    padding-top: 150px;
+    padding-bottom: 150px
+}
+
+.footerHeader {
+    font: poppins;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 42px;
+
+}
+
+.footerPara {
+    font: Overpass;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18.99px;
+}
+
+.footerHeader, .footerPara {
+    color: white;
+}
+
+.inputForm {
+
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    margin-top: 40px;
+    width: 400px;
+    padding: 20px;
+    border-radius: 50px;
+    border-color: transparent;
+}
+
