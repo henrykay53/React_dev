@@ -44,6 +44,7 @@ input {
     padding: 20px;
     border-radius: 50px;
     border-color: transparent;
+    outline: none;
 }
 
 .socials {

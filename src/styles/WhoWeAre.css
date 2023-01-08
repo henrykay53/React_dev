@@ -1,0 +1,43 @@
+.WhoWeAreContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.chatIcon {
+    /* position: absolute; */
+    /* left: 300px; */
+    height: 140px;
+    padding: 50px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    background-size: 30%;
+    box-shadow: 2px 2px 4px rgb(108, 103, 103);
+}
+
+.WhoWeAre {
+    color: white;
+    text-align: center;
+    background-color: #7D47EF;
+    border-radius: 10px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    width: 40%;
+    /* background-repeat: no-repeat; */
+    /* background-size: 60%; */
+    /* padding: 300px; */
+  
+}
+
+.learnMore {
+    padding: 20px;
+    border-radius: 50px;
+    width: 200px;
+    color:#7D47EF;
+    outline: none;
+    border: transparent;
+    font-weight: 400;
+    font-size: 21px;
+
+}

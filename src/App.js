@@ -1,12 +1,18 @@
 // import logo from './logo.svg';
 // import './App.css';
-import Footer from './components/Footer';
+import WhoWeAre from './components/WhoWeAre';
+// import Footer from './components/Footer';
 
 function App() {
   return (
-    
 
-    <Footer/>
+    <div>
+      <WhoWeAre/>
+      {/* <Footer/> */}
+
+    </div>
+
+
    
   );
 }
