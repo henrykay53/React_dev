@@ -2,13 +2,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 20px;
 }
 
 
 .chatIcon {
-    /* position: absolute; */
-    /* left: 300px; */
+    position: absolute;
+    left: 450px;
     height: 140px;
+    /* padding: 50px 50px 170px 50px; */
     padding: 50px;
     border-radius: 10px;
     background-color: rgb(255, 255, 255);

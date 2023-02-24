@@ -1,0 +1,25 @@
+.carousel {
+    background-color: #7D47EF;
+    margin-top: 30px;
+}
+
+.carousel-container {
+    display: flex;
+    justify-content: center;
+}
+
+.carousel-one, .carousel-two, .carousel-three {
+
+    padding: 120px;
+}
+
+.carousel-one, .carousel-three {
+    background-color: white;
+}
+
+
+.prev-button, .next-button {
+    background-color: gold;
+    /* padding: 10px; */
+    /* box-shadow: 2px 2px 2px black; */
+}
