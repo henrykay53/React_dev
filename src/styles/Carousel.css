@@ -1,25 +1,83 @@
+/* * {
+    box-sizing: border-box;
+} */
 .carousel {
     background-color: #7D47EF;
     margin-top: 30px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    overflow: hidden;
+}
+
+
+
+
+
+.carousel-text {
+    text-align: center;
+    color: white;
+    margin-bottom: 80px;
 }
 
 .carousel-container {
     display: flex;
-    justify-content: center;
+    align-items: center;
+}
+
+.prev-button, .next-button {
+    background-color: white;
+    padding: 30px 30px 40px 30px;
+    height: 2vh;
+    border-radius: 10px;
+    z-index: 10;
+
+}
+
+.prev-button {
+    box-shadow: 2px 0px 30px rgb(92, 90, 90);
+}
+
+.next-button {
+    box-shadow: -2px 0px 30px rgb(92, 90, 90);
 }
 
 .carousel-one, .carousel-two, .carousel-three {
 
-    padding: 120px;
+    padding: 100px 120px 100px 120px;
+    border-radius: 10px;
+}
+
+.carousel-two {
+    background-color: #874FFF;
+    margin-left: 60px;
+    margin-right: 60px;
 }
 
 .carousel-one, .carousel-three {
     background-color: white;
 }
 
-
-.prev-button, .next-button {
-    background-color: gold;
-    /* padding: 10px; */
-    /* box-shadow: 2px 2px 2px black; */
+.profile-flex {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
 }
+
+
+.profile-name, .black {
+    padding-left: 20px;
+    color: white;
+}
+
+.black {
+    color: black;
+}
+
+
+
+
+
+/* .prev, .next {
+    overflow: hidden;
+    overflow-clip-margin: 0px;
+} */

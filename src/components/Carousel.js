@@ -7,12 +7,16 @@ import NEXT from "../images/next.png"
 export function Carousel() {
   return (
     <div className="carousel">
-      <h1>CLIENT TESTIMONIALS</h1>
-      <p>Loren loren loren loren lorem lorem</p>
+
+      <div className='carousel-text'>
+         <h1>Client Testimonials</h1>
+         <p>Loren loren loren loren lorem lorem</p>
+      </div>
+     
 
       <div className="carousel-container">
         <div className='prev-button'>
-          <img src={PREV} alt="previous-button"/>
+          <img className='prev' src={PREV} alt="previous-button"/>
         </div>
 
         <div className="carousel-one">
@@ -21,7 +25,18 @@ export function Carousel() {
             lorem lorem lorem
           </p>
 
-          <img src={JN} alt="user-icon"/>
+
+          <div className="profile-flex">
+
+            <img src={JN} alt="user-icon"/>
+            <div className='profile-name, black'>
+              <p>Janella</p>
+              <p>LUTON</p>
+            </div>
+
+          </div>
+
+         
   
 
         </div>
@@ -33,7 +48,17 @@ export function Carousel() {
             lorem lorem lorem
           </p>
 
-          <img src={JN} alt="user-icon"/>
+      
+
+          <div className="profile-flex">
+
+            <img src={JN} alt="user-icon"/>
+            <div className='profile-name'>
+              <p>Janella</p>
+              <p>LUTON</p>
+            </div>
+
+          </div>
           
 
         </div>
@@ -45,13 +70,23 @@ export function Carousel() {
             lorem lorem lorem
           </p>
 
-          <img src={JN} alt="user-icon"/>
+         
+
+          <div className="profile-flex">
+
+            <img src={JN} alt="user-icon"/>
+            <div className='profile-name, black'>
+              <p>Janella</p>
+              <p>LUTON</p>
+            </div>
+
+          </div>
           
         </div>
 
 
         <div className='next-button'>
-          <img src={NEXT} alt="next-button"/>
+          <img className='next' src={NEXT} alt="next-button"/>
         </div>
 
 

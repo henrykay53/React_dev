@@ -9,7 +9,7 @@
 .chatIcon {
     position: absolute;
     left: 450px;
-    height: 140px;
+    height: 220px;
     /* padding: 50px 50px 170px 50px; */
     padding: 50px;
     border-radius: 10px;
@@ -23,13 +23,17 @@
     text-align: center;
     background-color: #7D47EF;
     border-radius: 10px;
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 100px;
+    padding-bottom: 100px;
     width: 40%;
     /* background-repeat: no-repeat; */
     /* background-size: 60%; */
     /* padding: 300px; */
   
+}
+
+.whoweare-header {
+    margin-bottom: 50px;
 }
 
 .learnMore {

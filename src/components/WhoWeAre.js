@@ -13,7 +13,7 @@ function WhoWeAre() {
       </div>
 
       <div className='WhoWeAre'>
-        <h1>Who we are</h1>
+        <h1 className='whoweare-header'>Who we are</h1>
         <p>Lorem lorem lorem lorem, lorem lorem <br/> lorem lorem</p>
         <button className="learnMore">Learn more</button>
 
