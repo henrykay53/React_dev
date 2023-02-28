@@ -72,3 +72,17 @@ input {
     border-radius: 50%;
     
 }
+
+@media screen and (max-width: 420px) {
+
+    .footer {
+        background-color: gold;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+
+    .paperPlane {
+        margin-right: 50px;
+    }
+}

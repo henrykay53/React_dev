@@ -10,7 +10,6 @@
     position: absolute;
     left: 450px;
     height: 220px;
-    /* padding: 50px 50px 170px 50px; */
     padding: 50px;
     border-radius: 10px;
     background-color: rgb(255, 255, 255);
@@ -26,10 +25,7 @@
     padding-top: 100px;
     padding-bottom: 100px;
     width: 40%;
-    /* background-repeat: no-repeat; */
-    /* background-size: 60%; */
-    /* padding: 300px; */
-  
+
 }
 
 .whoweare-header {
@@ -46,4 +42,41 @@
     font-weight: 400;
     font-size: 21px;
 
+}
+
+@media screen and (max-width: 420px) {
+
+    .WhoWeAreContainer {
+        background-color: green;
+        display: flex;
+        flex-direction: column;
+        border-radius: 10px;
+        margin-left: 15px;
+        margin-right: 15px;
+        /* width: 100%; */
+    }
+
+    .chatIcon {
+        position: absolute;
+        height: 131px;
+        width: 131px;
+        top: -30px;
+        left: 129px;
+        /* padding: 10px; */
+        z-index: 10;
+        background-size: 0;
+        padding: 10px;
+    }
+
+    .chatIcon > img {
+        margin-top: 25px;
+        margin-left: 23px;
+        width: 60%;
+        /* height: 50%; */
+
+    }
+
+    .WhoWeAre {
+        width: 100%;
+    }
 }

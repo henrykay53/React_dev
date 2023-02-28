@@ -9,10 +9,6 @@
     overflow: hidden;
 }
 
-
-
-
-
 .carousel-text {
     text-align: center;
     color: white;
@@ -74,7 +70,12 @@
 }
 
 
-
+@media screen and (max-width: 420px) {
+    .carousel-container {
+        display: flex;
+        flex-direction: column;
+    }
+}
 
 
 /* .prev, .next {
