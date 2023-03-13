@@ -88,10 +88,60 @@
     color: black;
 }
 
+.scroll {
+
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+
+}
+
+@media screen and (min-width: 421px) {
+
+    span {
+        display: none;
+    }
+    
+}
 
 @media screen and (max-width: 420px) {
-    .carousel-container {
-        display: flex;
-        flex-direction: column;
+
+    .carousel {
+        padding: 100px 10px;
     }
+
+    .carousel-para {
+        margin-top: 40px;
+    }
+
+    .carousel-one, .carousel-two, .carousel-three {
+
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 19px;
+        padding: 100px 5px;
+        margin: 0px 20px;
+        width: 100%;
+        color: #7D47EF;
+    }
+
+    span {
+
+        border-radius: 100%;
+        padding: 4px;
+        background-color: rgb(255, 255, 255);
+        margin-top: 10px;
+        margin-left: 5px;
+    }
+    
+    .black {
+        margin-left: 10px;
+        padding: 0px;
+    }
+
+    .next-button, .prev-button {
+        display: none;
+    }
+
 }
+

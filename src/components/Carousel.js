@@ -32,22 +32,29 @@ export function Carousel() {
 
 
   return (
+
     <div className="carousel">
 
       <div className='carousel-text'>
          <h1>Client Testimonials</h1>
-         <p>Loren loren loren loren lorem lorem</p>
+         <p className="carousel-para">Loren lorem lorem lorem lorem lorem lorem
+            lorem lorem lorem lorem lorem lorem loremlorem lorem lorem lorem
+            lorem lorem lorem
+          </p>
       </div>
      
       <div className="carousel-container">
       
 
         {currentCarousel === 1 && <div className="carousel-one">
-          <p>Loren lorem lorem lorem lorem 
+
+          <p>Loren lorem lorem lorem lorem lorem lorem
+            lorem lorem lorem lorem lorem lorem loremlorem lorem lorem
           </p>
 
 
-          <div className="profile-flex-one">
+
+          <div className="profile-flex">
 
             <img src={JN} alt="user-icon"/>
             <div className='profile-name, black'>
@@ -60,12 +67,15 @@ export function Carousel() {
         </div>}
 
         {currentCarousel === 2 && <div className="carousel-two">
-          <p>Loren lorem lorem lorem lorem lorem lorem
-            lorem lorem lorem lorem l
+
+        <p>Loren lorem lorem lorem lorem lorem lorem
+            lorem lorem lorem lorem lorem lorem loremlorem lorem lorem lorem
+            lorem lorem lorem
           </p>
+        
 
 
-          <div className="profile-flex-one">
+          <div className="profile-flex">
 
             <img src={JN} alt="user-icon"/>
             <div className='profile-name, black'>
@@ -88,7 +98,7 @@ export function Carousel() {
           </p>
 
 
-          <div className="profile-flex-one">
+          <div className="profile-flex">
 
             <img src={JN} alt="user-icon"/>
             <div className='profile-name, black'>
@@ -99,6 +109,8 @@ export function Carousel() {
           </div>
 
         </div>}
+
+     
         
 
         <div className='prev-button' onClick={()=> Decrease()}>
@@ -112,6 +124,14 @@ export function Carousel() {
 
 
       </div>
+
+      <div className='scroll'>
+          <span></span>
+          <span></span>
+          <span></span>
+
+        </div>
+
     </div>
   )
 }
