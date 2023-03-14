@@ -14,7 +14,7 @@ function WhoWeAre() {
 
       <div className='WhoWeAre'>
         <h1 className='whoweare-header'>Who We Are</h1>
-        <p>Lorem lorem lorem lorem, lorem lorem lorem ipsum 
+        <p className='whoweare-para'>Lorem lorem lorem lorem, lorem lorem lorem ipsum 
           lorem ipsum ipsumm lorem lorem lorem Lorem lorem lorem lorem, lorem lorem lorem ipsum 
           lorem ipsum ipsumm lorem lorem lorem</p>
         <button className="learnMore">Learn more</button>

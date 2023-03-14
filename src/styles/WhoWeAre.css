@@ -3,14 +3,16 @@
     justify-content: center;
     align-items: center;
     margin-top: 20px;
+    margin-right: 400px;
 }
 
 
 .chatIcon {
-    position: absolute;
-    left: 450px;
-    height: 220px;
-    padding: 50px;
+    position: relative;
+    left: 180px;
+    z-index: 10;
+    height: 300px;
+    padding: 100px;
     border-radius: 10px;
     background-color: rgb(255, 255, 255);
     background-size: 30%;
@@ -19,28 +21,50 @@
 
 .WhoWeAre {
     color: white;
-    text-align: center;
+    /* text-align: center; */
     background-color: #7D47EF;
     border-radius: 19px;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    width: 40%;
+    padding-top: 90px;
+    padding-right: 110px;
+    padding-bottom: 90px;
+    padding-left: 250px;
+   
+    width: 50%;
 
 }
 
 .whoweare-header {
-    margin-bottom: 50px;
+    margin-bottom: 20px;
+    font-family: 'Poppin';
+    font-style: normal;
+    font-size: 28px;
+    line-height: 42px;
+    color: white;
+
+}
+
+.whoweare-para {
+
+    font-family: 'Overpass';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    color: white;
 }
 
 .learnMore {
-    padding: 20px;
+    margin-top: 40px;
+    padding: 10px;
     border-radius: 50px;
-    width: 200px;
+    width: 180px;
     color:#7D47EF;
     outline: none;
     border: transparent;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 21px;
+    line-height: 32px;
+    
 
 }
 
@@ -80,6 +104,10 @@
         font-weight: 700;
         line-height: 42px;
         color: #EEEEEE;
+    }
+
+    .whoweare-para {
+        padding: 0px 10px;
     }
 
     .learnMore {
