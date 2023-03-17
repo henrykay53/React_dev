@@ -7,12 +7,16 @@ import NEXT from "../images/next.png"
 export function Carousel() {
 
   const [currentCarousel, setCurrentCarousel] = useState(1);
+  // const [scrollColor, setScrollColor] = useState(true);
+  
 
   const Increase = ()=> {
+    
     if(currentCarousel === 3) {
       setCurrentCarousel(1)
     }
 
+    
     else {
       setCurrentCarousel(currentCarousel + 1)
     }
@@ -30,6 +34,8 @@ export function Carousel() {
 
   }
 
+ 
+
 
   return (
 
@@ -42,6 +48,8 @@ export function Carousel() {
             lorem lorem lorem
           </p>
       </div>
+
+ 
      
       <div className="carousel-container">
       
@@ -59,7 +67,7 @@ export function Carousel() {
             <img src={JN} alt="user-icon"/>
             <div className='profile-name, black'>
               <p>Janella</p>
-              <p>LUTON</p>
+              <p className='lastNameOne'>LUTON</p>
             </div>
 
           </div>
@@ -80,7 +88,7 @@ export function Carousel() {
             <img src={JN} alt="user-icon"/>
             <div className='profile-name, black'>
               <p>Janella</p>
-              <p>LUTON</p>
+              <p className='lastNameTwo'>LUTON</p>
             </div>
 
           </div>
@@ -103,7 +111,7 @@ export function Carousel() {
             <img src={JN} alt="user-icon"/>
             <div className='profile-name, black'>
               <p>Janella</p>
-              <p>LUTON</p>
+              <p className='lastNameThree'>LUTON</p>
             </div>
 
           </div>
@@ -125,7 +133,9 @@ export function Carousel() {
 
       </div>
 
-      <div className='scroll'>
+      {/* <table className={this.state.isTableVisible ? 'tableRoot' : ''}></table> */}
+
+      <div className='scroll isActive'>
           <span></span>
           <span></span>
           <span></span>

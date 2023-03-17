@@ -79,8 +79,6 @@
 }
 
 
-
-
 .profile-name, .black {
     padding-left: 20px;
     color: white;
@@ -106,6 +104,11 @@
     
 }
 
+
+.isActive > span:hover {
+    background-color: white;
+}
+
 @media screen and (max-width: 500px) {
 
     .carousel {
@@ -116,7 +119,7 @@
         margin-top: 40px;
     }
 
-    .carousel-one, .carousel-two, .carousel-three {
+    .carousel-one, .carousel-three {
 
         font-size: 15px;
         font-weight: 600;
@@ -127,14 +130,35 @@
         color: #7D47EF;
     }
 
+    .carousel-two {
+
+
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 19px;
+        padding: 100px 5px;
+        margin: 0px 20px;
+        width: 100%;
+    }
+
+    .lastNameOne, .lastNameThree {
+        color: #7D47EF;
+    }
+
+    .lastNameTwo {
+        color: white;
+    }
+
     span {
 
         border-radius: 100%;
         padding: 4px;
-        background-color: rgb(255, 255, 255);
+        background-color: rgb(180, 175, 175);
         margin-top: 10px;
         margin-left: 5px;
     }
+
+
     
     .black {
         margin-left: 10px;
