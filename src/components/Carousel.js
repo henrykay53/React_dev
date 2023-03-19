@@ -7,18 +7,25 @@ import NEXT from "../images/next.png"
 export function Carousel() {
 
   const [currentCarousel, setCurrentCarousel] = useState(1);
-  // const [scrollColor, setScrollColor] = useState(true);
+  const [scrollColor, setScrollColor] = useState(1);
   
 
   const Increase = ()=> {
     
-    if(currentCarousel === 3) {
+    if(currentCarousel < 3) {
+      setCurrentCarousel(currentCarousel + 1) 
+    }
+
+    else  {
       setCurrentCarousel(1)
     }
 
-    
+    if (scrollColor < 3) {
+      setScrollColor(scrollColor + 1)
+    }
+
     else {
-      setCurrentCarousel(currentCarousel + 1)
+      setScrollColor(1)
     }
   
   }
@@ -32,10 +39,15 @@ export function Carousel() {
       setCurrentCarousel(1)
     }
 
+    if (scrollColor > 1) {
+      setScrollColor(scrollColor -1)
+    }
+
+    else {
+      setScrollColor(1)
+    }
+
   }
-
- 
-
 
   return (
 
@@ -50,7 +62,6 @@ export function Carousel() {
       </div>
 
  
-     
       <div className="carousel-container">
       
 
@@ -59,8 +70,6 @@ export function Carousel() {
           <p>Loren lorem lorem lorem lorem lorem lorem
             lorem lorem lorem lorem lorem lorem loremlorem lorem lorem
           </p>
-
-
 
           <div className="profile-flex">
 
@@ -93,9 +102,7 @@ export function Carousel() {
 
           </div>
 
-         
-  
-
+    
         </div>}
 
         {currentCarousel === 3 && <div className="carousel-three">
@@ -118,8 +125,6 @@ export function Carousel() {
 
         </div>}
 
-     
-        
 
         <div className='prev-button' onClick={()=> Decrease()}>
           <img className='prev' src={PREV} alt="previous-button"/>
@@ -133,12 +138,14 @@ export function Carousel() {
 
       </div>
 
-      {/* <table className={this.state.isTableVisible ? 'tableRoot' : ''}></table> */}
+  
+    
+      <div className='scroll'>
+          {/*When the value for scrollColor passes as 'true' the 'isActive' class is add to give it a background color of white to get the scroll effect*/}
 
-      <div className='scroll isActive'>
-          <span></span>
-          <span></span>
-          <span></span>
+          <span className ={scrollColor === 1 ? 'isActive' : ''}></span>
+          <span className ={scrollColor === 2 ? 'isActive' : ''}></span>
+          <span className ={scrollColor === 3 ? 'isActive' : ''}></span>
 
         </div>
 

@@ -105,10 +105,6 @@
 }
 
 
-.isActive > span:hover {
-    background-color: white;
-}
-
 @media screen and (max-width: 500px) {
 
     .carousel {
@@ -131,7 +127,6 @@
     }
 
     .carousel-two {
-
 
         font-size: 15px;
         font-weight: 600;
@@ -156,6 +151,10 @@
         background-color: rgb(180, 175, 175);
         margin-top: 10px;
         margin-left: 5px;
+    }
+
+    .isActive   {
+        background-color: white;
     }
 
 

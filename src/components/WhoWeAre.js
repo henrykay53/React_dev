@@ -1,7 +1,7 @@
 import React from 'react'
 import '../styles/WhoWeAre.css'
 import ChatIcon from "../images/chatIcon.png"
-import BlueRectangle from "../images/blueRectangle.png";
+
 
 function WhoWeAre() {
   return (

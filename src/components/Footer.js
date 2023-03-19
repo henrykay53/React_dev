@@ -1,5 +1,4 @@
 import React from 'react'
-// import './generalStyles.css'
 import '../styles/footer.css'
 import IG from '../images/ig.png'
 import TW from  '../images/tw.png'
